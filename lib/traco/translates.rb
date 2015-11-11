@@ -1,6 +1,6 @@
 module Traco
   module Translates
-    def translates(*attributes)
+    def traco_translates(*attributes)
       include Traco::Attributes.new(*attributes)
     end
   end
